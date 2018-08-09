@@ -1,0 +1,58 @@
+.header-main{
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-height: 92px;
+    width: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+.header{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+    font-size: 31px;
+}
+.header-logo-yand{
+    background: url("/guide/assets/yandexHome.svg") no-repeat center;
+    height: 27px;
+    width: 107px;
+}
+.header-logo{
+    position: relative;
+    margin: 32px 52px 33px 40px;
+    //font-family: "YandexSansLogotype-Light", sans-serif;
+    font-family: YandexSansLogotype-Light;
+    font-size: 31px;
+    color: #151515;
+    line-height: 39px;
+    background: #419bf9;
+}
+.header-report{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    background: #419bf9;
+}
+.header-devices{
+    opacity: 0.6;
+    font-family: Arial-BoldMT;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    background: #419bf9;
+}
+
+.header-scenarios{
+    opacity: 0.6;
+    font-family: Arial-BoldMT;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    background: #419bf9;
+}
+.content{
+    font-size: 60px;
+}

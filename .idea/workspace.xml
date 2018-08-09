@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cb9f9cc-7a61-4cda-bc8b-8319e63b21e9" name="Default" comment="" />
+    <list default="true" id="5cb9f9cc-7a61-4cda-bc8b-8319e63b21e9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/arialbd.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guide/assets/yandexHome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guide/assets/yandexHome2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ru/style-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/main.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,15 +19,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="style-main.css" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/ru/style-main.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="340">
+                    <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ru/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="89">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandexHome.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide/assets/yandexHome.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Яндекс Дом.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guide/assets/Яндекс Дом.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -29,6 +68,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,6 +78,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ru/style-main.css" />
         <option value="$PROJECT_DIR$/ru/main.html" />
       </list>
     </option>
@@ -52,10 +93,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="6" />
-    <option name="width" value="1517" />
-    <option name="height" value="997" />
+    <option name="x" value="-7" />
+    <option name="width" value="976" />
+    <option name="height" value="530" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -68,6 +108,22 @@
             <path>
               <item name="entrance-task-2-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="entrance-task-2-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrance-task-2-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entrance-task-2-2" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrance-task-2-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entrance-task-2-2" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="entrance-task-2-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="entrance-task-2-2" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="entrance-task-2-2" type="b2602c69:ProjectViewProjectNode" />
@@ -85,8 +141,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programing\JS\WebstormProjects\Yandex\entrance-task-2-2\guide\assets" />
+      <recent name="E:\Programing\JS\WebstormProjects\Yandex\entrance-task-2-2\fonts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,6 +163,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/entrance-task-2-2/ru/main.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,26 +181,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533800509121</updated>
-      <workItem from="1533800510246" duration="905000" />
+      <workItem from="1533800510246" duration="10946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="905000" />
+    <option name="totallyTimeSpent" value="10946000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="6" width="1517" height="997" extended-state="0" />
+    <frame x="-7" y="0" width="976" height="530" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494929" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="Version Control" weight="0.30827886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40374038" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -147,10 +218,39 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/guide/links/final-v1-3-1-home-dashboard-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="67" lean-forward="true" selection-start-column="67" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/assets/Яндекс Дом@1x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru/style-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/assets/Яндекс Дом.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/assets/yandexHome.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide/assets/Яндекс Дом@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ru/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="89">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
