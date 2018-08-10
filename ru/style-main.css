@@ -1,3 +1,9 @@
+body{
+    min-width: 1366px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .header-main{
     display: block;
     margin: 0;
@@ -8,50 +14,72 @@
 }
 .header{
     display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 10px;
+    margin: 36px 14px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Arial-BoldMT", "Arial";
+}
 
-    font-size: 31px;
+a{
+    box-sizing: border-box;
+    height: 20px;
+    width: 79px;
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    color: red;
 }
 .header-logo-yand{
-    background: url("../guide/assets/yandexHome.svg") no-repeat center;
+    position: relative;
     height: 27px;
-    width: 107px;
+    width: 130px;
+    padding: 0px;
+    margin: 32px 32px 33px 40px;
 }
+.header-logo-home{
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    left: 65px;
+    top: 0px;
+}
+/*
 .header-logo{
     position: relative;
     margin: 32px 52px 33px 40px;
-    //font-family: "YandexSansLogotype-Light", sans-serif;
-    font-family: YandexSansLogotype-Light;
     font-size: 31px;
     color: #151515;
     line-height: 39px;
     background: #419bf9;
 }
+*/
 .header-report{
-    font-family: "Arial Rounded MT Bold", sans-serif;
-    font-size: 16px;
+    position: relative;
+    top: -5px;
+    left: -20px;
     color: #333333;
     line-height: 20px;
-    background: #419bf9;
+    //background: #419bf9;
 }
 .header-devices{
+    position: relative;
+    top: -5px;
+    left: -20px;
     opacity: 0.6;
-    font-family: Arial-BoldMT;
-    font-size: 16px;
     color: #333333;
     line-height: 20px;
-    background: #419bf9;
+    //background: #419bf9;
 }
 
 .header-scenarios{
+    position: relative;
+    top: -5px;
+    left: -20px;
     opacity: 0.6;
-    font-family: Arial-BoldMT;
-    font-size: 16px;
     color: #333333;
     line-height: 20px;
-    background: #419bf9;
+    //background: #419bf9;
 }
 .content{
     font-size: 60px;

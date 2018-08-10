@@ -12,14 +12,25 @@
 }
 */
 @font-face {
-    //font-family: 'Yandex Sans Text';
+//font-family: 'Yandex Sans Text';
     font-family: 'YandexSansLogotype-Light';
     src: url('../fonts/YandexSansText-Thin.eot');
     src: local('Yandex Sans Text Thin'), local('YandexSansText-Thin'),
-        url('../fonts/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/YandexSansText-Thin.woff') format('woff'),
-        url('../fonts/YandexSansText-Thin.ttf') format('truetype');
+    url('../fonts/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/YandexSansText-Thin.woff') format('woff'),
+    url('../fonts/YandexSansText-Thin.ttf') format('truetype');
     font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial-BoldMT';
+    //src: url('../fonts/YandexSansText-Thin.eot');
+    //src: local('Yandex Sans Text Thin'), local('YandexSansText-Thin'),
+    //url('../fonts/YandexSansText-Thin.eot?#iefix') format('embedded-opentype'),
+    //url('../fonts/YandexSansText-Thin.woff') format('woff'),
+    url('../fonts/Arial-BoldMT.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 /*
