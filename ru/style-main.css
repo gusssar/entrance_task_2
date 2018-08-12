@@ -6,7 +6,7 @@ body{
 
 .header-main{
     display: block;
-    margin: 0;
+    margin-bottom: 29px;
     padding: 0;
     min-height: 92px;
     width: auto;
@@ -44,16 +44,7 @@ a:hover{
     left: 65px;
     top: 0px;
 }
-/*
-.header-logo{
-    position: relative;
-    margin: 32px 52px 33px 40px;
-    font-size: 31px;
-    color: #151515;
-    line-height: 39px;
-    background: #419bf9;
-}
-*/
+
 .header-report{
     position: relative;
     top: -5px;
@@ -81,6 +72,128 @@ a:hover{
     line-height: 20px;
     //background: #419bf9;
 }
-.content{
-    font-size: 60px;
+
+.main-monitor{
+    width: 630px;
+    height: 331px;
+    margin: 20px 20px 20px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: url("../guide/assets/bg@1x.png") no-repeat;
+}
+.content-main{
+    display: block;
+    //position: relative;
+    //top: 29px;
+    //left: 39px;
+    margin: 29px 0px 20px 39px;
+    font-family: Arial-BoldMT;
+    font-size: 18px;
+    color: #333333;
+}
+
+.welcome-title{
+    display: block;
+    float: left;
+    margin: 26px 25px 6px;
+    font-family: Arial-BoldMT;
+    font-size: 18px;
+    color: #333333;
+}
+
+.short-info{
+    display: block;
+    float:left;
+    margin: 6px 25px 25px;
+    font-family: ArialMT;
+    font-size: 14px;
+    color: #333333;
+}
+
+.temperature-info{
+    display: inline-block;
+}
+
+.temperature-home{
+    margin-left: 25px;
+}
+.temperature-outside{
+    margin-left: 20px;
+}
+
+.temperature-place{
+    font-family: ArialMT;
+    font-size: 14px;
+    color: #858585;
+}
+
+.temperature-deg{
+    display: inline-block;
+    font-family: Arial-BoldMT;
+    font-size: 36px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+
+.next-scenarios{
+    //display: block;
+    position: relative;
+    width: 220px;
+    height: 310px;
+    margin-top: 20px;
+    //top: 0;
+    //right: 20px;
+    float: right;
+    //border: 1px solid black;
+
+
+}
+
+.content-next-scenaries{
+    //display: block;
+    //display: table;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    background: #F7F7F7;
+    //border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 20px 15px 0;
+    //vertical-align: bottom;
+}
+
+.scenario-img{
+    //margin: 14px;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+.scenario-bloc{
+    position: absolute;
+    bottom: 14px;
+}
+.scenario-title{
+    font-family: Arial-BoldMT;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 3px 15px;
+    //position: relative;
+    //bottom: -20px;
+    //display: table-cell;
+}
+
+.scenario-content{
+    font-family: ArialMT;
+    font-size: 12px;
+    color: #858585;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0 15px;
+    //position: relative;
+    //bottom: -20px;
+    //float: bottom;
 }
