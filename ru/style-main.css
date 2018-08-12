@@ -3,7 +3,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 .header-main{
     display: block;
     margin-bottom: 29px;
@@ -20,14 +19,14 @@ body{
     font-family: "Arial-BoldMT", "Arial";
 }
 
-a{
+.header a{
     box-sizing: border-box;
     height: 20px;
     width: 79px;
     text-decoration: none;
     color: #333333;
 }
-a:hover{
+.header a:hover{
     color: red;
 }
 .header-logo-yand{
@@ -44,7 +43,6 @@ a:hover{
     left: 65px;
     top: 0px;
 }
-
 .header-report{
     position: relative;
     top: -5px;
@@ -62,7 +60,6 @@ a:hover{
     line-height: 20px;
     //background: #419bf9;
 }
-
 .header-scenarios{
     position: relative;
     top: -5px;
@@ -73,34 +70,41 @@ a:hover{
     //background: #419bf9;
 }
 
+.column{
+    display: inline-block;
+    vertical-align: top;
+}
+.content-first-line{
+    //position: relative;
+    //width: 50%;
+    width: 670px;
+    //left: 0;
+}
 .main-monitor{
     width: 630px;
     height: 331px;
     margin: 20px 20px 20px 40px;
-    border: 1px solid black;
+    //border: 1px solid black;
     border-radius: 20px;
     background: url("../guide/assets/bg@1x.png") no-repeat;
 }
 .content-main{
     display: block;
-    //position: relative;
-    //top: 29px;
-    //left: 39px;
     margin: 29px 0px 20px 39px;
-    font-family: Arial-BoldMT;
+    font-family: "Arial-BoldMT", "Arial";
     font-size: 18px;
+    font-weight: bold;
     color: #333333;
 }
-
 .welcome-title{
     display: block;
     float: left;
     margin: 26px 25px 6px;
-    font-family: Arial-BoldMT;
-    font-size: 18px;
+    font-family: "Arial-BoldMT", "Arial";
+    font-size: 27px;
+    font-weight: bold;
     color: #333333;
 }
-
 .short-info{
     display: block;
     float:left;
@@ -109,34 +113,39 @@ a:hover{
     font-size: 14px;
     color: #333333;
 }
-
+.temperature-block{
+    display: block;
+    float: left;
+}
 .temperature-info{
     display: inline-block;
+    //float: left;
 }
-
 .temperature-home{
     margin-left: 25px;
 }
 .temperature-outside{
     margin-left: 20px;
 }
-
 .temperature-place{
     font-family: ArialMT;
     font-size: 14px;
     color: #858585;
 }
-
 .temperature-deg{
     display: inline-block;
-    font-family: Arial-BoldMT;
+    font-family: "Arial-BoldMT", "Arial";
     font-size: 36px;
+    font-weight: bold;
     color: #333333;
     letter-spacing: 0;
     text-align: left;
 }
-
-
+.temperature-svg{
+    height: 26px;
+    width: 26px;
+    background: url("../guide/assets/cloud-drizzle.svg") no-repeat;
+}
 .next-scenarios{
     //display: block;
     position: relative;
@@ -150,7 +159,6 @@ a:hover{
 
 
 }
-
 .content-next-scenaries{
     //display: block;
     //display: table;
@@ -163,7 +171,6 @@ a:hover{
     margin: 0 20px 15px 0;
     //vertical-align: bottom;
 }
-
 .scenario-img{
     //margin: 14px;
     position: absolute;
@@ -175,17 +182,17 @@ a:hover{
     bottom: 14px;
 }
 .scenario-title{
-    font-family: Arial-BoldMT;
+    font-family: "Arial-BoldMT", "Arial";
     font-size: 14px;
     color: #333333;
     letter-spacing: 0;
     text-align: left;
     margin: 3px 15px;
+    font-weight: bold;
     //position: relative;
     //bottom: -20px;
     //display: table-cell;
 }
-
 .scenario-content{
     font-family: ArialMT;
     font-size: 12px;
@@ -196,4 +203,44 @@ a:hover{
     //position: relative;
     //bottom: -20px;
     //float: bottom;
+}
+
+.content-second-line{
+    width: 674px;
+    height: 421px;
+    //border: 1px solid black;
+    margin: 0;
+}
+.favorites-title{
+    display: block;
+    position: relative;
+    //width: 200px;
+    margin: 29px 0px 20px 25px;
+    font-family: "Arial-BoldMT", "Arial";
+    font-size: 18px;
+    color: #333333;
+}
+.favorites-navigation{
+    //display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    //float: right;
+}
+.favorites-navigation div{
+    display: inline-block;
+}
+.favorites-scenarios{
+    margin: 20px 0 20px 25px;
+    //border: 1px solid black;
+}
+.fav-column{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: #F7F7F7;
+    border-radius: 20px;
+    margin: 0 13px 15px 0;
+    vertical-align: bottom;
 }
