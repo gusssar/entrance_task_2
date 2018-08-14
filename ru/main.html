@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style-main.css">
 </head>
 <body>
+<main class="main-bg">
     <div class="header-main">
         <div class="header-logo-yand">
             <a href="https://yandex.ru">
@@ -21,6 +22,7 @@
         <div class="header-scenarios">
             <a href="#">Сценарии</a> </div>
     </div>
+
     <div class="header-line">
     </div>
 
@@ -166,6 +168,17 @@
             </div>
             </a>
 
+            <!-- Начало пробы
+            <a href="#openModal">Открыть Поп-ап</a>
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">Закртыть</a>
+                    <h2>ПопАп</h2>
+                    <p>Поп Ап бла бла бла</p>
+                    <p>бла бла бла</p>
+                </div>
+            </div>
+            <!-- Конец пробы -->
         </div>
     </div>
     </div>
@@ -193,6 +206,7 @@
 
         <div class="favorites-devices-tab">
 
+            <a href="#open-popup-1">
             <div class="fav-dev-tab dev-kitchen dev-lights">
                 <div class="scenario-img">
                     <img src="../guide/assets/icon_sun_2.svg" alt="l" height="24px" width="24px">
@@ -206,6 +220,7 @@
                     </div>
                 </div>
             </div>
+            </a>
 
             <div class="fav-dev-tab dev-hall dev-cameras">
                 <div class="scenario-img">
@@ -277,6 +292,25 @@
                 </div>
             </div>
 
+            <div id="open-popup-1" class="openPopup">
+                <div class="popup-content">
+                    <div class="popup-title">
+                        <div>Xiaomi Yeelight LED Smart Bulb</div>
+                        <div>Включится в 17:00</div>
+                    </div>
+                    <div>
+                        <div>Вручную</div>
+                        <div>Дневной свет</div>
+                        <div>Вечерний свет</div>
+                        <div>Рассвет</div>
+                    </div>
+                    <div class="change-light"></div>
+                    <a href="#done" title="Done" class="popup-done">Применить</a>
+                    <a href="#close" title="Close" class="popup-close">Закрыть</a>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
@@ -294,7 +328,7 @@
 
         </div>
     </div>
-
+</main>
 </body>
 </html>
 
