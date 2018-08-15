@@ -167,8 +167,7 @@
                 </div>
             </div>
             </a>
-
-            <!-- Начало пробы
+                       <!-- Начало пробы
             <a href="#openModal">Открыть Поп-ап</a>
             <div id="openModal" class="modalDialog">
                 <div>
@@ -250,6 +249,7 @@
                 </div>
             </div>
 
+            <a href="#open-popup-2">
             <div class="fav-dev-tab dev-hall dev-lights">
                 <div class="scenario-img">
                     <img src="../guide/assets/icon_sun.svg" alt="l" height="24px" width="24px">
@@ -263,6 +263,7 @@
                     </div>
                 </div>
             </div>
+            </a>
 
             <div class="fav-dev-tab dev-hall">
                 <div class="scenario-img">
@@ -278,6 +279,7 @@
                 </div>
             </div>
 
+            <a href="#open-popup-3">
             <div class="fav-dev-tab dev-hall dev-lights">
                 <div class="scenario-img">
                     <img src="../guide/assets/icon_sun.svg" alt="l" height="24px" width="24px">
@@ -291,26 +293,39 @@
                     </div>
                 </div>
             </div>
-
+            </a>
+<!--
             <div id="open-popup-1" class="openPopup">
                 <div class="popup-content">
+                    <div>
                     <div class="popup-title">
                         <div>Xiaomi Yeelight LED Smart Bulb</div>
                         <div>Включится в 17:00</div>
                     </div>
-                    <div>
-                        <div>Вручную</div>
-                        <div>Дневной свет</div>
-                        <div>Вечерний свет</div>
-                        <div>Рассвет</div>
+                    <div class="auto-light">
+                        <input id="select-temp-manual" name="radio-temp" type="radio" class="temp-manual" checked="checked" />
+                        <label for="select-temp-manual" class="temp-manual">Вручную</label>
+
+                        <input id="select-temp-day" name="radio-temp" type="radio" class="temp-day" />
+                        <label for="select-temp-day" class="temp-day">Дневной свет</label>
+
+                        <input id="select-temp-night" name="radio-temp" type="radio" class="temp-night" />
+                        <label for="select-temp-night" class="temp-night">Вечерний свет</label>
+
+                        <input id="select-temp-sunrise" name="radio-temp" type="radio" class="temp-sunrise" />
+                        <label for="select-temp-sunrise" class="temp-sunrise">Рассвет</label>
                     </div>
-                    <div class="change-light"></div>
+                    <div class="change-light">
+                        <label>Click me <input type="text"></label>
+
+                    </div>
+                    </div>
                     <a href="#done" title="Done" class="popup-done">Применить</a>
                     <a href="#close" title="Close" class="popup-close">Закрыть</a>
                 </div>
 
             </div>
-
+-->
         </div>
     </div>
 
@@ -329,6 +344,100 @@
         </div>
     </div>
 </main>
+<!-- Попапы для страницы -->
+<div id="open-popup-1" class="openPopup">
+    <div class="popup-content">
+        <div>
+            <div class="popup-title">
+                <div>Xiaomi Yeelight LED Smart Bulb</div>
+                <div>Включится в 17:00</div>
+            </div>
+            <img src="../guide/assets/icon_sun.svg" alt="l" height="50px" width="50px">
+            <div class="auto-light">
+                <input id="select-temp-manual-1" name="radio-temp-1" type="radio" class="temp-manual" checked="checked" />
+                <label for="select-temp-manual-1" class="temp-manual">Вручную</label>
+
+                <input id="select-temp-day-1" name="radio-temp-1" type="radio" class="temp-day" />
+                <label for="select-temp-day-1" class="temp-day">Дневной свет</label>
+
+                <input id="select-temp-night-1" name="radio-temp-1" type="radio" class="temp-night" />
+                <label for="select-temp-night-1" class="temp-night">Вечерний свет</label>
+
+                <input id="select-temp-sunrise-1" name="radio-temp-1" type="radio" class="temp-sunrise" />
+                <label for="select-temp-sunrise-1" class="temp-sunrise">Рассвет</label>
+            </div>
+            <div class="change-light">
+                <img src="../guide/assets/icon_sun_min.svg" alt="l" height="40px" width="40px">
+                <input type="range">
+
+                <img src="../guide/assets/icon_sun_max.svg" alt="l" height="40px" width="40px">
+            </div>
+        </div>
+        <a href="#done" title="Done" class="popup-done">Применить</a>
+        <a href="#close" title="Close" class="popup-close">Закрыть</a>
+    </div>
+</div>
+
+<div id="open-popup-2" class="openPopup">
+    <div class="popup-content">
+        <div>
+            <div class="popup-title">
+                <div>LIFX Mini Day & Dusk A60 E27</div>
+                <div>Включится в 17:00</div>
+            </div>
+            <img src="../guide/assets/icon_sun.svg" alt="l" height="50px" width="50px">
+            <div class="auto-light">
+                <input id="select-temp-manual-2" name="radio-temp-2" type="radio" class="temp-manual" checked="checked" />
+                <label for="select-temp-manual-2" class="temp-manual">Вручную</label>
+
+                <input id="select-temp-day-2" name="radio-temp-2" type="radio" class="temp-day" />
+                <label for="select-temp-day-2" class="temp-day">Дневной свет</label>
+
+                <input id="select-temp-night-2" name="radio-temp-2" type="radio" class="temp-night" />
+                <label for="select-temp-night-2" class="temp-night">Вечерний свет</label>
+
+                <input id="select-temp-sunrise-2" name="radio-temp-2" type="radio" class="temp-sunrise" />
+                <label for="select-temp-sunrise-2" class="temp-sunrise">Рассвет</label>
+            </div>
+            <div class="change-light">
+                <input type="range">
+            </div>
+        </div>
+        <a href="#done" title="Done" class="popup-done">Применить</a>
+        <a href="#close" title="Close" class="popup-close">Закрыть</a>
+    </div>
+</div>
+
+<div id="open-popup-3" class="openPopup">
+    <div class="popup-content">
+        <div>
+            <div class="popup-title">
+                <div>Philips Zhirui</div>
+                <div>Включен</div>
+            </div>
+            <img src="../guide/assets/icon_sun.svg" alt="l" height="50px" width="50px">
+            <div class="auto-light">
+                <input id="select-temp-manual-3" name="radio-temp-3" type="radio" class="temp-manual" checked="checked" />
+                <label for="select-temp-manual-3" class="temp-manual">Вручную</label>
+
+                <input id="select-temp-day-3" name="radio-temp-3" type="radio" class="temp-day" />
+                <label for="select-temp-day-3" class="temp-day">Дневной свет</label>
+
+                <input id="select-temp-night-3" name="radio-temp-3" type="radio" class="temp-night" />
+                <label for="select-temp-night-2" class="temp-night">Вечерний свет</label>
+
+                <input id="select-temp-sunrise-3" name="radio-temp-3" type="radio" class="temp-sunrise" />
+                <label for="select-temp-sunrise-2" class="temp-sunrise">Рассвет</label>
+            </div>
+            <div class="change-light">
+                <input type="range">
+            </div>
+        </div>
+        <a href="#done" title="Done" class="popup-done">Применить</a>
+        <a href="#close" title="Close" class="popup-close">Закрыть</a>
+    </div>
+</div>
+
 </body>
 </html>
 
