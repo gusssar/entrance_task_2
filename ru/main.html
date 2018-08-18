@@ -371,9 +371,9 @@
             </div>
             <div class="change-light">
                 <img src="../guide/assets/icon_sun_min.svg" alt="l" height="40px" width="40px">
-                <input type="range">
+                <input type="range"  min="0" max="1" value="0.5" step="0.01" id="light-range-1">
 
-                <img src="../guide/assets/icon_sun_max.svg" alt="l" height="40px" width="40px">
+                <img id="light-value-1" src="../guide/assets/icon_sun_max.svg" alt="l" height="40px" width="40px">
             </div>
         </div>
         <a href="#done" title="Done" class="popup-done">Применить</a>
@@ -447,6 +447,7 @@
                 <div>Elgato Eve Degree Connected</div>
                 <div>Выключен до 17:00</div>
             </div>
+            <div class="value-temp" id="value-temp-1">10</div>
             <!--добавить счётчик https://www.w3schools.com/howto/howto_js_rangeslider.asp-->
             <img src="../guide/assets/icon_temperature_2.svg" alt="l" height="50px" width="50px">
             <div class="auto-light">
@@ -465,6 +466,7 @@
             <div class="change-temp">
                 <input type="range" min="-10" max="30" id="temp-range-1">
             </div>
+            <script src="for-temp.js"></script>
         </div>
         <a href="#done" title="Done" class="popup-done">Применить</a>
         <a href="#close" title="Close" class="popup-close">Закрыть</a>

@@ -513,7 +513,17 @@ body{
     right: 25px;
     top: 25px;
 }
-
+.value-temp{
+    position: absolute;
+    right: 75px;
+    top: 30px;
+    font-family: Arial-BoldMT;
+    font-weight: bold;
+    font-size: 36px;
+    color: #333333;
+    letter-spacing: 0;
+    text-align: left;
+}
 .change-temp{
     width: 580px;
     height: 60px;
